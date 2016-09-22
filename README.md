@@ -12,3 +12,9 @@ _これはテスト用のリポジトリです。_
 2. ハードウェア構成
 3. ノード
 4. その他
+
+デバイス|メーカID|ルール
+:----|:----:|:----
+/dev/abh3 |10c4|SUBSYSTEM="tty", ATTRS{idVendor}=="10c4", SYMLINK+="abh3"
+/dev/plc  |0557|SUBSYSTEM="tty", ATTRS{idVendor}=="0557", SYMLINK+="plc"
+/dev/im920|0403|SUBSYSTEM="tty", ATTRS{idVendor}=="0403", SYMLINK+="im920"
